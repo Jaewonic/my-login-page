@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="/CODE/PROJECT/신 로그인창/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar">
+            <a href="#">Service</a>
+            <a href="#">About us</a>
+            <a href="#">Contect</a>
+            <a href="#">Help</a>
+        </nav>
+
+        <form action="#" class="search-bar">
+            <input type="search" placeholder="Search...">
+            <button class="btn-search" submit="검색"><i class='bx bx-search'></i></button>
+        </form>
+    </div>
+
+    <div class="container">
+
+        <div class="container__aside">
+            <div class="container__text">
+            <h1>I'm JAEWONIC</h1>
+            <h2>Let me self introduce.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="link">
+                    <h3>LINKS</h3>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="http://jwns.tistory.coms"><i class='bx bxl-blogger' ></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container__bside">
+            <form class="sign-in-form">
+                <h1>Sign In</h1>
+                <div class="sign__type">
+                    <input type="text" placeholder="Id or Email" onfocus="this.placeholder=''" 
+                    onblur="this.placeholder='Id or Email'" ><i class='bx bx-edit-alt' ></i>
+                    <input type="text" placeholder="Password" onfocus="this.placeholder=''"  
+                    onblur="this.placeholder='Password'" ><i class='bx bxs-lock'></i>
+                </div>
+
+                    <div class="forget_form">
+                        <input type="checkbox"id="forget__chkbox">로그인 상태 유지
+                    </div>
+
+                    <div class="login_btn">
+                        <button>로그인</button>
+                    </div>
+
+            </form>
+        </div>
+    </div>
+    <script src="/CODE/JS/main.js"></script>
+</body>
+</html>
